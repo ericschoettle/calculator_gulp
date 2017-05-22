@@ -13,6 +13,7 @@ $(document).ready(function() {
 
   $('#addition-form').submit(function(event) {
     event.preventDefault();
+    console.log(moment)
     var number1 = parseInt($('#number1').val());
     var number2 = parseInt($('#number2').val());
     var simpleCalculator = new Calculator("hot pink");

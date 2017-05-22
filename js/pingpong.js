@@ -19,13 +19,11 @@ Calculator.prototype.pingPong = function(goal) {
 };
 
 Calculator.prototype.add = function(number1, number2) {
-  debugger
   output = number1 + number2
   return output;
 };
 
 Calculator.prototype.multiply = function(number1, number2) {
-  debugger
   output = number1 * number2
   return output;
 };

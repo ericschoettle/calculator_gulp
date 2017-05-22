@@ -20,13 +20,11 @@ Calculator.prototype.pingPong = function(goal) {
 };
 
 Calculator.prototype.add = function(number1, number2) {
-  debugger
   output = number1 + number2
   return output;
 };
 
 Calculator.prototype.multiply = function(number1, number2) {
-  debugger
   output = number1 * number2
   return output;
 };
@@ -48,6 +46,7 @@ $(document).ready(function() {
 
   $('#addition-form').submit(function(event) {
     event.preventDefault();
+    console.log(moment)
     var number1 = parseInt($('#number1').val());
     var number2 = parseInt($('#number2').val());
     var simpleCalculator = new Calculator("hot pink");
